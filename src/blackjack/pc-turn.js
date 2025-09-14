@@ -1,5 +1,6 @@
 import { renderData } from "./render-info";
 import { pickCard, asssignPoints } from "./cards-actions";
+import { determineWinner } from "./determine-winner";
 
 export const pcTurn = (pointsAccumulators, deck, speacialCards, scoreTags, cardsDivTags) => {
   while (pointsAccumulators[1] < 17) {
@@ -9,4 +10,5 @@ export const pcTurn = (pointsAccumulators, deck, speacialCards, scoreTags, cards
 
     renderData(scoreTags, 1, pointsAccumulators, cardsDivTags, card);
   }
+  determineWinner(pointsAccumulators);
 };

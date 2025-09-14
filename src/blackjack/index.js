@@ -4,5 +4,4 @@ export { initializeAccumulators } from './accumulators';
 export { renderData, resetRenderData } from './render-info';
 export { disableButtons, enableButtons } from './buttons-state';
 export { pcTurn } from './pc-turn';
-export { } from './determine-winner';
-
+export { determineWinner } from './determine-winner';

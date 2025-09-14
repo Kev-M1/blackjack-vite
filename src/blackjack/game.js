@@ -21,8 +21,8 @@ const cardsDivTags = document.querySelectorAll('.cards-div');
 export const startGame = () => {
   deck = createDeck(groupsDecks, speacialCards);
   pointsAccumulators = initializeAccumulators(undefined, pointsAccumulators);
-  console.log(deck);
-  console.log(pointsAccumulators);
+  // console.log(deck);
+  // console.log(pointsAccumulators);
 };
 
 
@@ -52,4 +52,10 @@ btnTakeCard.addEventListener('click', (event) => {
     disableButtons(btnStop, btnTakeCard);
     pcTurn(pointsAccumulators, deck, speacialCards, scoreTags, cardsDivTags);
   }
+});
+
+//STOP BUTTON
+btnStop.addEventListener('click', (event) => {
+  disableButtons(btnStop, btnTakeCard);
+  pcTurn(pointsAccumulators, deck, speacialCards, scoreTags, cardsDivTags);
 });
