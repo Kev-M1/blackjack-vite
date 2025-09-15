@@ -1,6 +1,6 @@
 export const renderData = (scoreTags, playerIndex, pointsAccumulators, cardsDivTags, card) => {
   scoreTags[playerIndex].textContent = `${pointsAccumulators[playerIndex]}`;
-  cardsDivTags[playerIndex].innerHTML += `<img src="public/assets/cards/${card}.png" class = "card">`;
+  cardsDivTags[playerIndex].innerHTML += `<img src="/assets/cards/${card}.png" class = "card">`;
 };
 
 export const resetRenderData = (scoreTags, cardsDivTags) => {

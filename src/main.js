@@ -4,6 +4,5 @@ import _ from 'underscore';
 import { startGame } from "./blackjack/index";
 
 
-
 startGame();
 
