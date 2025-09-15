@@ -34,3 +34,7 @@ Este proyecto fue construido con un enfoque modular, separando las responsabilid
 * **Underscore.js:** Una librería de utilidades de JavaScript que simplificó algunas operaciones con arrays.
 
 ---
+
+### 🚀 **Jugar ahora**
+
+[**Haz clic aquí para jugar en Netlify**](https://blackjack-vite-21323.netlify.app/)
